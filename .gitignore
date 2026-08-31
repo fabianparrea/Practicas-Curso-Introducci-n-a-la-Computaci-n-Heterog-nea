@@ -1,0 +1,20 @@
+# objetos y librerias compiladas
+*.o
+*.a
+*.so
+build/
+
+# ejecutables de los labs (no tienen extension asi que van por nombre)
+practica-clase-sem4/practica-clase-3/threading/cpu-naive
+practica-clase-sem4/practica-clase-3/threading/cpu-affinity
+practica-clase-sem4/practica-clase-3/scaling/matmul_tiled_openmp
+practica-clase-sem4/practica-clase-3/scaling/softmax_openmp
+practica-clase-sem4/practica-clase-3/simd/matmul_avx2
+practica-clase-sem4/practica-clase-3/simd/matmul_scalar
+practica-clase-sem4/asm-c/popcount-naive
+practica-clase-sem4/entry-point/hello
+practica-clase-sem4/optimisations/vector-add
+practica-clase-sem4/optimisations/vector-add-*
+
+# zip viejo que ya esta descomprimido en practica-clase-3
+practica-clase-sem4/semana 3.zip
