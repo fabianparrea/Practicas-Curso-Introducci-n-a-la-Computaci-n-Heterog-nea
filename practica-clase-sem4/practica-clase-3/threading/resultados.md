@@ -2,7 +2,7 @@
 
 Fabián Parreaguirre Hidalgo
 
-Le agregué un argumento de N hilos a los dos programas (antes estaba fijo en 8). Barrido de 1 a 8 en `medir.sh` (tuve que forzar `LC_NUMERIC=C`, si no `time` daba los decimales con coma y rompía el csv).
+Le agregué un argumento de N hilos a los dos programas (antes estaba fijo en 8). Barrido de 1 a 8 en `medir.sh`.
 
 | Hilos | cpu-naive (s) | cpu-affinity (s) |
 |---|---|---|
