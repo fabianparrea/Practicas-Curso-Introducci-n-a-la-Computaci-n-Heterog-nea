@@ -2,6 +2,13 @@
 
 Fabián Parreaguirre Hidalgo
 
+Hardware Info:
+
+Processor: Intel Core i5-1135G7 (11va gen, 2.40GHz base)
+Cores: 4 físicos
+Threads: 8 lógicos (hyperthreading)
+Compilador: gcc 15.2.0
+
 `./build/bin/bench-dynamic 1000000 1000 1.0 2.0`, mismos parámetros del ejercicio A.
 
 | Corrida | fill A (us) | fill B (us) | add (us) | total (us) |
