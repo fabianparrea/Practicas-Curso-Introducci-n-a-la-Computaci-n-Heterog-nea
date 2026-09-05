@@ -2,6 +2,13 @@
 
 Fabián Parreaguirre Hidalgo
 
+Hardware Info:
+
+Processor: Intel Core i5-1135G7 (11va gen, 2.40GHz base)
+Cores: 4 físicos
+Threads: 8 lógicos (hyperthreading)
+Compilador: gcc 15.2.0
+
 Le agregué un argumento de N hilos a los dos programas (antes estaba fijo en 8). Barrido de 1 a 8 en `medir.sh`.
 
 | Hilos | cpu-naive (s) | cpu-affinity (s) |
