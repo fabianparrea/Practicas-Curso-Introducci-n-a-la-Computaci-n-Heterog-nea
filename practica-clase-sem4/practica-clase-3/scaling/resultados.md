@@ -2,6 +2,13 @@
 
 Fabián Parreaguirre Hidalgo
 
+Hardware Info:
+
+Processor: Intel Core i5-1135G7 (11va gen, 2.40GHz base)
+Cores: 4 físicos
+Threads: 8 lógicos (hyperthreading)
+Compilador: gcc 15.2.0
+
 Estos dos ya recibían el número de hilos por argumento. Corrí 1 a 8 hilos, subiendo un poco las repeticiones del default para que se notara el efecto (matmul: 512x512, tile 32, 20 rep; softmax: 200000 rep). Barrido en `medir.sh`/`tiempos.csv`.
 
 | Hilos | matmul_tiled_openmp | softmax_openmp |
