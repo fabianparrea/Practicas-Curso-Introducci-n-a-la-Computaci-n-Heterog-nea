@@ -157,3 +157,13 @@ softmax rows=256 cols=2048: OK
 - **¿Qué partes del algoritmo requieren cooperación entre hilos del mismo bloque?** Las que requieren cooperación son las dos reducciones, la del máximo y la de la suma, porque ahí sí un hilo necesita el valor de otro para combinar resultados. En cambio, calcular expf() y normalizar cada elemento lo hace cada hilo por su cuenta, sin depender de los demás.
 
 - **¿Qué limitación tiene usar un solo bloque por fila cuando cols crece mucho?** La limitación es que cada fila corre en un solo bloque. Si cols crece mucho, cada hilo tiene que procesar más columnas una tras otra en su bucle, así que se vuelve más lento sin sumar más paralelismo. Este diseño escala bien si se aumentan rows porque cada fila es un bloque independiente , pero no si se aumentan cols.
+
+## Nota sobre utilización de herramientas de IA
+
+Se hace uso de herramientas de IA como apoyo para comprender conceptos, generar ideas y mejorar la redacción de la documentación. La implementación, la validación y los resultados son responsabilidad del estudiante, quien asume la responsabilidad por el uso indebido o no descrito anteriormente.
+
+Se adjuntan los enlaces compartidos de las conversaciones como evidencia.
+
+https://claude.ai/share/611c293e-7438-4acc-80b6-d439961d921e
+
+
